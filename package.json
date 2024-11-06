@@ -1,0 +1,27 @@
+{
+  "name": "wkhtmltopdf-node-alpine",
+  "version": "1.0.0",
+  "description": "Wkhtmltopdf package for converting HTML to PDF with node alpine image",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manjeet8562/wkhtmltopdf-node-alpine"
+  },
+  "keywords": [
+    "wkhtmltopdf",
+    "html",
+    "pdf",
+    "node",
+    "alpine"
+  ],
+  "author": "https://github.com/manjeet8562",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "wkhtmltopdf": "^0.4.0"
+  }
+}
